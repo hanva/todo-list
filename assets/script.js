@@ -91,6 +91,7 @@ window.onload = function () {
             row.removeChild(flex);
             flex.appendChild(cancel);
             flex.appendChild(create);
+
             taskdiv.onclick = function () {
                 for (var items = document.querySelectorAll('.taskdiv'), len = items.length, i = 0; i < len; i++) {
                     items[i].setAttribute('draggable', 'true');
@@ -114,6 +115,7 @@ window.onload = function () {
 
     };
 };
+
 function allowDrop(ev) {
     ev.preventDefault();
 }

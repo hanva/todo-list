@@ -6,12 +6,13 @@
     text-align: center;
     bottom:0;
     margin:auto;
-
 }
+
 .title{
 color:red;
 margin-left:auto;
 }
+
 .button {
     position: relative;
     background: linear-gradient(140deg,rgba(42, 171, 237, .8) 0%,rgba(84, 92, 211, .9) 100%);
@@ -44,15 +45,7 @@ margin-left:auto;
     font-size:25px;
 
 }
-footer{
-    display: block;
-    width: 100%;
-    height: 10%;
-    background: linear-gradient(140deg,rgba(42, 171, 237, .8) 0%,rgba(84, 92, 211, .9) 100%);
-    text-align: center;
-    font-weight: bold;
-    color: white;
-}
+
 #textfield{
     display:none;
 }
@@ -63,7 +56,6 @@ footer{
     color: darkblue;
     border: 4px solid #87CEFA;
     border-radius:10px;
-    margin-right: 75px;
     display:flex;
 }
 .AddTask{
@@ -104,7 +96,6 @@ span {
     color: darkblue;
     margin-left: 33px;
     font-weight: bold;
-
 }
 
 .create{
