@@ -1,0 +1,130 @@
+.header{
+    content: '';
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(140deg,rgba(42, 171, 237, .8) 0%,rgba(84, 92, 211, .9) 100%);
+    text-align: center;
+    bottom:0;
+    margin:auto;
+
+}
+.title{
+color:white;
+margin-left:auto;
+}
+.button {
+    position: relative;
+    background: linear-gradient(140deg,rgba(42, 171, 237, .8) 0%,rgba(84, 92, 211, .9) 100%);
+    border: none;
+    color: limegreen;
+    margin-left:40%;
+    margin-top:2%;
+    margin-bottom:2%;
+    padding: 10px 80px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.row{
+    display:inline-table;
+    border: 1px solid #87CEFA;
+    background-color:#87CEFA;
+    margin-right:20px;
+     color: white;
+     border-radius:10px;
+     text-align:center;
+    height:450px;
+    width: 300px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size:25px;
+
+}
+footer{
+    display: block;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(140deg,rgba(42, 171, 237, .8) 0%,rgba(84, 92, 211, .9) 100%);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+#textfield{
+    display:none;
+}
+.task{
+    height:60px;
+    width: 200px;
+    margin:auto;
+    color: darkblue;
+    border: 4px solid #87CEFA;
+    border-radius:10px;
+    margin-right: 75px;
+    display:flex;
+}
+.AddTask{
+    margin-top: 20px;
+    vertical-align: middle;
+    font-size:2rem;
+}
+.croix{
+    right:100px;
+    right:0;
+}
+.form{
+
+}
+button.task{
+    text-align: right;
+    font-weight: bold;
+    color: dodgerblue;
+    width: 85px;
+    height: 60px;
+    cursor: pointer;
+}
+div.croix {
+    margin: 5px;
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 12px;
+    width: 25px;
+    background-color: white;
+    cursor: pointer;
+    height: 23px;
+    float: right;
+}
+span {
+
+    margin-left: 75px;
+    color: darkblue;
+    margin-left: 33px;
+    font-weight: bold;
+
+}
+
+.create{
+    cursor: pointer;
+
+}
+.remove{
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.taskdiv{
+    background-color:white;
+    color:#87CEFA;
+    border-radius:10px;
+    font-size:17px;
+    margin-bottom: 2px;
+}
+.Newtextitle{
+    border-radius:5px;
+}
